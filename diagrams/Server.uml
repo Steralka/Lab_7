@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/alex/IdeaProjects/Labs/Lab_6/Server</OriginalElement>
+  <nodes>
+    <node x="210.0" y="858.5">labs.lab6.server.commands.Update</node>
+    <node x="2879.0" y="1731.5">Build_gradle</node>
+    <node x="-141.0" y="998.5">labs.lab6.server.managers.CommandManager</node>
+    <node x="429.0" y="1058.5">labs.lab6.server.commands.PrintFieldDescendingDifficulty</node>
+    <node x="2449.0" y="1326.5">labs.lab6.server.commands.History</node>
+    <node x="2789.0" y="1498.5">labs.lab6.server.commands.Help</node>
+    <node x="2714.5" y="1944.5">labs.lab6.server.exceptions.OpenServerException</node>
+    <node x="736.0" y="858.5">labs.lab6.server.commands.CountByMinimalPoint</node>
+    <node x="2608.0" y="1706.5">labs.lab6.server.Main</node>
+    <node x="1010.0" y="1058.5">labs.lab6.server.commands.RemoveLower</node>
+    <node x="1250.0" y="858.5">labs.lab6.server.commands.Clear</node>
+    <node x="1490.0" y="1058.5">labs.lab6.server.commands.Info</node>
+    <node x="2290.5" y="1870.5">labs.lab6.server.utility.Server</node>
+    <node x="1731.0" y="858.5">labs.lab6.server.commands.PrintFieldAscendingDiscipline</node>
+    <node x="2050.0" y="1058.5">labs.lab6.server.commands.Show</node>
+    <node x="223.5" y="-13.5">labs.lab6.server.managers.CollectionManager</node>
+    <node x="-33.0" y="226.5">labs.lab6.server.commands.Command</node>
+    <node x="2289.0" y="1498.5">labs.lab6.server.utility.RequestHandler</node>
+    <node x="2290.0" y="858.5">labs.lab6.server.commands.AddIfMax</node>
+    <node x="2530.0" y="1058.5">labs.lab6.server.commands.RemoveById</node>
+    <node x="2770.0" y="858.5">labs.lab6.server.commands.Add</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="labs.lab6.server.commands.RemoveById" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="2741.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Show" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="2120.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Add" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="2840.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.History" target="labs.lab6.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-71.0" y="-69.5" />
+      <point x="2520.0" y="1296.0" />
+      <point x="2431.0" y="1296.0" />
+      <point x="2431.0" y="1256.0" />
+      <point x="11.0" y="1256.0" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.RemoveLower" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="1080.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Add" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="2981.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Help" target="labs.lab6.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="-71.0" y="-57.5" />
+      <point x="2860.0" y="1296.0" />
+      <point x="2431.0" y="1296.0" />
+      <point x="2431.0" y="1256.0" />
+      <point x="11.0" y="1256.0" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Clear" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="1461.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.PrintFieldAscendingDiscipline" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-90.0" y="-57.5" />
+      <point x="1821.0" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.PrintFieldDescendingDifficulty" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="91.0" y="-57.5" />
+      <point x="702.0" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Info" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="1701.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Update" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="280.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.CountByMinimalPoint" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="77.5" y="-57.5" />
+      <point x="968.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.AddIfMax" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="2360.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.RemoveById" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="2600.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.utility.Server" target="labs.lab6.server.utility.RequestHandler" relationship="TO_ONE">
+      <point x="0.0" y="-105.5" />
+      <point x="0.0" y="57.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.AddIfMax" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="2501.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Clear" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="1320.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.PrintFieldAscendingDiscipline" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="90.0" y="-57.5" />
+      <point x="2001.0" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Help" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="71.0" y="-57.5" />
+      <point x="3002.0" y="1476.0" />
+      <point x="3111.0" y="1476.0" />
+      <point x="3111.0" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.RemoveLower" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="1221.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.CountByMinimalPoint" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-77.5" y="-57.5" />
+      <point x="813.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Update" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="421.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.PrintFieldDescendingDifficulty" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-91.0" y="-57.5" />
+      <point x="520.0" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.utility.RequestHandler" target="labs.lab6.server.managers.CommandManager" relationship="TO_ONE">
+      <point x="0.0" y="-57.5" />
+      <point x="2431.0" y="1256.0" />
+      <point x="11.0" y="1256.0" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Show" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="70.5" y="-57.5" />
+      <point x="2261.5" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.Info" target="labs.lab6.server.managers.CollectionManager" relationship="TO_ONE">
+      <point x="-70.5" y="-57.5" />
+      <point x="1560.5" y="816.0" />
+      <point x="271.0" y="816.0" />
+      <point x="271.0" y="756.0" />
+      <point x="391.0" y="756.0" />
+      <point x="0.0" y="369.5" />
+    </edge>
+    <edge source="labs.lab6.server.commands.History" target="labs.lab6.server.commands.Command" relationship="GENERALIZATION">
+      <point x="71.0" y="-69.5" />
+      <point x="2662.0" y="1276.0" />
+      <point x="3071.0" y="1276.0" />
+      <point x="3071.0" y="836.0" />
+      <point x="971.0" y="836.0" />
+      <point x="971.0" y="776.0" />
+      <point x="123.0" y="776.0" />
+      <point x="52.0" y="129.5" />
+    </edge>
+    <edge source="labs.lab6.server.managers.CommandManager" target="labs.lab6.server.commands.Command" relationship="TO_MANY">
+      <point x="0.0" y="-117.5" />
+      <point x="11.0" y="976.0" />
+      <point x="19.0" y="976.0" />
+      <point x="-52.0" y="129.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.45580403670705033" showDependencies="true" x="910.2418454191859" y="616.1530530432499" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

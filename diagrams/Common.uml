@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/alex/IdeaProjects/Labs/Lab_6/Common</OriginalElement>
+  <nodes>
+    <node x="-165.5" y="-13.5">labs.lab6.common.utility.CommandType</node>
+    <node x="-118.5" y="555.5">labs.lab6.common.utility.Console</node>
+    <node x="2312.5" y="3615.5">labs.lab6.common.network.requests.PrintFieldDescendingDifficultyRequest</node>
+    <node x="1913.5" y="3110.5">labs.lab6.common.network.responses.PrintFieldAscendingDisciplineResponse</node>
+    <node x="3087.0" y="3615.5">labs.lab6.common.network.requests.ShowRequest</node>
+    <node x="2191.5" y="2026.5">labs.lab6.common.utility.CommandInfo</node>
+    <node x="-19.5" y="950.5">labs.lab6.common.managers.CSVParser</node>
+    <node x="1457.0" y="3755.5">labs.lab6.common.exceptions.InvalidFormException</node>
+    <node x="1982.0" y="3590.5">labs.lab6.common.network.requests.CountByMinimalPointRequest</node>
+    <node x="2865.5" y="1815.5">labs.lab6.common.utility.Validatable</node>
+    <node x="-167.5" y="3110.5">labs.lab6.common.network.responses.InfoResponse</node>
+    <node x="-97.0" y="3743.0">labs.lab6.common.Main</node>
+    <node x="2326.5" y="2266.5">labs.lab6.common.models.Discipline</node>
+    <node x="2818.0" y="3590.5">labs.lab6.common.network.requests.RemoveByIdRequest</node>
+    <node x="1052.5" y="3730.5">labs.lab6.common.network.requests.AddIfMaxRequest</node>
+    <node x="3049.0" y="2654.5">labs.lab6.common.network.requests.Request</node>
+    <node x="2599.5" y="2858.5">labs.lab6.common.models.LabWork</node>
+    <node x="18.5" y="3590.5">labs.lab6.common.network.responses.ShowResponse</node>
+    <node x="369.5" y="3590.5">labs.lab6.common.network.requests.AddRequest</node>
+    <node x="1595.0" y="3615.5">labs.lab6.common.network.requests.PrintFieldAscendingDisciplineRequest</node>
+    <node x="888.0" y="3135.5">labs.lab6.common.network.responses.RemoveByIdResponse</node>
+    <node x="757.0" y="2690.5">labs.lab6.common.network.responses.AddResponse</node>
+    <node x="903.0" y="2290.5">labs.lab6.common.network.responses.Response</node>
+    <node x="2257.0" y="2690.5">labs.lab6.common.network.responses.PrintFieldDescendingDifficultyResponse</node>
+    <node x="210.0" y="3135.5">labs.lab6.common.network.responses.ClearResponse</node>
+    <node x="2210.5" y="3755.5">labs.lab6.common.network.requests.HelpRequest</node>
+    <node x="331.0" y="2715.5">labs.lab6.common.network.responses.ErrorResponse</node>
+    <node x="598.0" y="3730.5">labs.lab6.common.network.requests.RemoveLowerRequest</node>
+    <node x="810.5" y="3615.5">labs.lab6.common.exceptions.ServerConnectionException</node>
+    <node x="3044.0" y="2351.0">labs.lab6.common.utility.Form</node>
+    <node x="1391.0" y="2715.5">labs.lab6.common.network.responses.SaveResponse</node>
+    <node x="2805.0" y="2266.5">labs.lab6.common.models.Difficulty</node>
+    <node x="1319.5" y="3590.5">labs.lab6.common.network.requests.UpdateRequest</node>
+    <node x="-30.5" y="2690.5">labs.lab6.common.network.responses.CountByMinimalPointResponse</node>
+    <node x="2586.5" y="3730.5">labs.lab6.common.network.requests.HistoryRequest</node>
+    <node x="2540.0" y="1978.5">labs.lab6.common.models.Coordinates</node>
+    <node x="1893.5" y="3755.5">labs.lab6.common.network.requests.InfoRequest</node>
+    <node x="254.0" y="3743.0">Build_gradle</node>
+    <node x="2988.0" y="3755.5">labs.lab6.common.network.requests.ClearRequest</node>
+    <node x="1665.5" y="2690.5">labs.lab6.common.network.responses.HelpResponse</node>
+    <node x="1032.0" y="2666.5">labs.lab6.common.network.responses.AddIfMaxResponse</node>
+    <node x="1511.0" y="3110.5">labs.lab6.common.network.responses.RemoveLowerResponse</node>
+    <node x="1263.5" y="3135.5">labs.lab6.common.network.responses.UpdateResponse</node>
+    <node x="-178.5" y="1334.5">labs.lab6.common.utility.StandardConsole</node>
+    <node x="562.5" y="3110.5">labs.lab6.common.network.responses.HistoryResponse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="labs.lab6.common.network.responses.HelpResponse" target="labs.lab6.common.utility.CommandInfo" relationship="TO_MANY">
+      <point x="80.25" y="-56.5" />
+      <point x="1906.25" y="2587.0" />
+      <point x="2306.0" y="2587.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.AddRequest" target="labs.lab6.common.models.LabWork" relationship="TO_ONE">
+      <point x="-48.25" y="-56.5" />
+      <point x="417.75" y="3567.0" />
+      <point x="666.0" y="3567.0" />
+      <point x="666.0" y="3507.0" />
+      <point x="2806.0" y="3507.0" />
+      <point x="0.0" y="308.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.AddRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="48.25" y="-56.5" />
+      <point x="514.25" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.RemoveByIdRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="2926.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.HelpRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.Discipline" target="labs.lab6.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-140.5" />
+      <point x="2506.0" y="1947.0" />
+      <point x="2906.0" y="1947.0" />
+      <point x="2906.0" y="1907.0" />
+      <point x="2905.75" y="1907.0" />
+      <point x="-40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.ClearResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="306.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.LabWork" target="labs.lab6.common.models.Coordinates" relationship="TO_ONE">
+      <point x="-103.25" y="-308.5" />
+      <point x="2702.75" y="2827.0" />
+      <point x="2706.0" y="2827.0" />
+      <point x="0.0" y="128.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.PrintFieldAscendingDisciplineResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-106.25" y="-56.5" />
+      <point x="2019.75" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.CountByMinimalPointRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="2126.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.HelpResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-80.25" y="-56.5" />
+      <point x="1745.75" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.Difficulty" target="labs.lab6.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-140.5" />
+      <point x="2906.0" y="1907.0" />
+      <point x="2905.75" y="1907.0" />
+      <point x="-40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.CountByMinimalPointResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="126.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.InfoRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="1966.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.PrintFieldDescendingDifficultyResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-104.5" y="-56.5" />
+      <point x="2361.5" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.PrintFieldDescendingDifficultyRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="2486.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.ShowResponse" target="labs.lab6.common.models.LabWork" relationship="TO_MANY">
+      <point x="73.75" y="-56.5" />
+      <point x="239.75" y="3567.0" />
+      <point x="666.0" y="3567.0" />
+      <point x="666.0" y="3507.0" />
+      <point x="2806.0" y="3507.0" />
+      <point x="0.0" y="308.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.RemoveLowerResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="1646.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.AddIfMaxRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="56.75" y="-56.5" />
+      <point x="1222.75" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.PrintFieldAscendingDisciplineResponse" target="labs.lab6.common.models.Discipline" relationship="TO_MANY">
+      <point x="106.25" y="-56.5" />
+      <point x="2232.25" y="2607.0" />
+      <point x="2506.0" y="2607.0" />
+      <point x="0.0" y="140.5" />
+    </edge>
+    <edge source="labs.lab6.common.managers.CSVParser" target="labs.lab6.common.utility.Console" relationship="TO_ONE">
+      <point x="0.0" y="-176.5" />
+      <point x="186.0" y="927.0" />
+      <point x="68.25" y="927.0" />
+      <point x="62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.ErrorResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="426.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.AddIfMaxRequest" target="labs.lab6.common.models.LabWork" relationship="TO_ONE">
+      <point x="-56.75" y="-56.5" />
+      <point x="1109.25" y="3567.0" />
+      <point x="666.0" y="3567.0" />
+      <point x="666.0" y="3507.0" />
+      <point x="2806.0" y="3507.0" />
+      <point x="0.0" y="308.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.UpdateResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="1366.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.PrintFieldAscendingDisciplineRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="1766.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.ClearRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="3066.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.LabWork" target="labs.lab6.common.models.Difficulty" relationship="TO_ONE">
+      <point x="-103.25" y="-308.5" />
+      <point x="2702.75" y="2827.0" />
+      <point x="2706.0" y="2827.0" />
+      <point x="2706.0" y="2647.0" />
+      <point x="2906.0" y="2647.0" />
+      <point x="0.0" y="140.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.Coordinates" target="labs.lab6.common.utility.Validatable" relationship="REALIZATION">
+      <point x="0.0" y="-128.5" />
+      <point x="2706.0" y="1947.0" />
+      <point x="2906.0" y="1947.0" />
+      <point x="2906.0" y="1907.0" />
+      <point x="2905.75" y="1907.0" />
+      <point x="-40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab6.common.utility.StandardConsole" target="labs.lab6.common.utility.Console" relationship="REALIZATION">
+      <point x="0.0" y="-212.5" />
+      <point x="-54.0" y="1307.0" />
+      <point x="-56.25" y="1307.0" />
+      <point x="-62.25" y="151.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.ShowRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="3166.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.HistoryRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="2686.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.PrintFieldDescendingDifficultyResponse" target="labs.lab6.common.models.Difficulty" relationship="TO_MANY">
+      <point x="104.5" y="-56.5" />
+      <point x="2570.5" y="2627.0" />
+      <point x="2906.0" y="2627.0" />
+      <point x="0.0" y="140.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.UpdateRequest" target="labs.lab6.common.models.LabWork" relationship="TO_ONE">
+      <point x="-53.25" y="-56.5" />
+      <point x="1372.75" y="3567.0" />
+      <point x="666.0" y="3567.0" />
+      <point x="666.0" y="3507.0" />
+      <point x="2806.0" y="3507.0" />
+      <point x="0.0" y="308.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.HistoryResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="706.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.ShowResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="-73.75" y="-56.5" />
+      <point x="92.25" y="3527.0" />
+      <point x="546.0" y="3527.0" />
+      <point x="546.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.RemoveLowerRequest" target="labs.lab6.common.models.LabWork" relationship="TO_ONE">
+      <point x="-64.0" y="-56.5" />
+      <point x="662.0" y="3567.0" />
+      <point x="666.0" y="3567.0" />
+      <point x="666.0" y="3507.0" />
+      <point x="2806.0" y="3507.0" />
+      <point x="0.0" y="308.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.InfoResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="-54.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.utility.Form" target="labs.lab6.common.utility.Validatable" relationship="DEPENDENCY">
+      <point x="0.0" y="-56.0" />
+      <point x="3106.0" y="1927.0" />
+      <point x="2986.25" y="1927.0" />
+      <point x="40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.RemoveLowerRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="64.0" y="-56.5" />
+      <point x="790.0" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.requests.UpdateRequest" target="labs.lab6.common.network.requests.Request" relationship="GENERALIZATION">
+      <point x="53.25" y="-56.5" />
+      <point x="1479.25" y="3547.0" />
+      <point x="2286.0" y="3547.0" />
+      <point x="2286.0" y="3487.0" />
+      <point x="3146.0" y="3487.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.AddResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.5" />
+      <point x="866.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.LabWork" target="labs.lab6.common.utility.Validatable" relationship="REALIZATION">
+      <point x="103.25" y="-308.5" />
+      <point x="2909.25" y="2827.0" />
+      <point x="3026.0" y="2827.0" />
+      <point x="3026.0" y="1947.0" />
+      <point x="2906.0" y="1947.0" />
+      <point x="2906.0" y="1907.0" />
+      <point x="2905.75" y="1907.0" />
+      <point x="-40.25" y="31.5" />
+    </edge>
+    <edge source="labs.lab6.common.models.LabWork" target="labs.lab6.common.models.Discipline" relationship="TO_ONE">
+      <point x="-103.25" y="-308.5" />
+      <point x="2702.75" y="2827.0" />
+      <point x="2706.0" y="2827.0" />
+      <point x="2706.0" y="2667.0" />
+      <point x="2506.0" y="2667.0" />
+      <point x="0.0" y="140.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.AddIfMaxResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-80.5" />
+      <point x="1186.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.SaveResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="1486.0" y="2627.0" />
+      <point x="1006.0" y="2627.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="labs.lab6.common.network.responses.RemoveByIdResponse" target="labs.lab6.common.network.responses.Response" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.4213492798131697" showDependencies="true" x="2227.650775358212" y="3296.6515908656893" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
